@@ -1,3 +1,5 @@
+using DataService;
+using FunctionalService;
 using LoggingService;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,14 +24,34 @@ namespace cms
             
             var host = CreateHostBuilder(args).Build();
 
-            using(var scope = host.Services.CreateScope())
+            //using(var scope = host.Services.CreateScope())
+            //{
+            //    try
+            //    {
+            //        int zero = 0;
+            //        int result = 100 / zero;
+            //    }
+            //    catch (DivideByZeroException ex)
+            //    {
+
+            //        Log.Error("An Error occured while seeding the database {Error} {Stacktree} {InnerException} {Source}", ex.Message, ex.StackTrace, ex.Source);
+            //    }
+            //}
+
+            using (var scope = host.Services.CreateScope())
             {
+                var services = scope.ServiceProvider;
                 try
                 {
-                    int zero = 0;
-                    int result = 100 / zero;
+
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    var dpContext = services.GetRequiredService<DataProtectionKeysContext>();
+                    var funcsvc = services.GetRequiredService<IFunctionalSvc>();
+
+                    DbContextInitializer.Initialize(dpContext, context, funcsvc).Wait();
+
                 }
-                catch (DivideByZeroException ex)
+                catch (Exception ex)
                 {
 
                     Log.Error("An Error occured while seeding the database {Error} {Stacktree} {InnerException} {Source}", ex.Message, ex.StackTrace, ex.Source);

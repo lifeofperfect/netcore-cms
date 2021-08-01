@@ -20,8 +20,8 @@ namespace DataService
             base.OnModelCreating(builder);
 
             builder.Entity<IdentityRole>().HasData(
-                new {id=1, Name="Administrator", NormalizedName="ADMINISTRATOR", RoleName="Administrator", Handle="administartor", RoleIcon="/uploads/roles/icons/default/role.png", IsActive=true},
-                new {id=2, Name="Customer", NormalizedName="CUSTOMER", RoleName="Customer", Handle="customer", RoleIcon="/uploads/roles/icons/default/role.png", IsActive=true}
+                new {Id="1", Name="Administrator", NormalizedName="ADMINISTRATOR", RoleName="Administrator", Handle="administartor", RoleIcon="/uploads/roles/icons/default/role.png", IsActive=true},
+                new {Id="2", Name="Customer", NormalizedName="CUSTOMER", RoleName="Customer", Handle="customer", RoleIcon="/uploads/roles/icons/default/role.png", IsActive=true}
                 );
         }
 

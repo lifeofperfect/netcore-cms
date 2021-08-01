@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 using ModelService;
 using Serilog;
 using System;
@@ -9,15 +10,15 @@ using System.Threading.Tasks;
 namespace FunctionalService
 {
     
-    public class FunctionalSvc
+    public class FunctionalSvc : IFunctionalSvc
     {
         private readonly AdminUserOptions _adminUserOptions;
         private readonly AppUserOptions _appUserOptions;
         private readonly UserManager<ApplicationUser> _userManager;
-        public FunctionalSvc(AdminUserOptions adminUserOptions, AppUserOptions appUserOptions, UserManager<ApplicationUser> userManager)
+        public FunctionalSvc(IOptions<AdminUserOptions> adminUserOptions, IOptions<AppUserOptions> appUserOptions, UserManager<ApplicationUser> userManager)
         {
-            _adminUserOptions = adminUserOptions;
-            _appUserOptions = appUserOptions;
+            _adminUserOptions = adminUserOptions.Value;
+            _appUserOptions = appUserOptions.Value;
             _userManager = userManager;
         }
 
