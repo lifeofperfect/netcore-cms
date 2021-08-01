@@ -35,3 +35,17 @@ C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\obj\Deb
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\obj\Debug\netcoreapp3.1\cms.pdb
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\obj\Debug\netcoreapp3.1\cms.genruntimeconfig.cache
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\obj\Debug\netcoreapp3.1\cms.csproj.CopyComplete
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\LoggingService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\LoggingService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.AspNetCore.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Extensions.Hosting.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Formatting.Compact.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuration.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll

@@ -1038,22 +1038,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "LoggingService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Serilog.AspNetCore": "3.1.0",
-          "Serilog.Settings.Configuration": "3.1.0",
-          "Serilog.Sinks.Console": "3.1.1",
-          "Serilog.Sinks.File": "4.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LoggingService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LoggingService.dll": {}
-        }
       }
     }
   },
@@ -3852,16 +3836,14 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "LoggingService/1.0.0": {
-      "type": "project",
-      "path": "../LoggingService/LoggingService.csproj",
-      "msbuildProject": "../LoggingService/LoggingService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LoggingService >= 1.0.0"
+      "Serilog.AspNetCore >= 3.1.0",
+      "Serilog.Settings.Configuration >= 3.1.0",
+      "Serilog.Sinks.Console >= 3.1.1",
+      "Serilog.Sinks.File >= 4.0.0"
     ]
   },
   "packageFolders": {
@@ -3871,11 +3853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\cms\\cms.csproj",
-      "projectName": "cms",
-      "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\cms\\cms.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj",
+      "projectName": "LoggingService",
+      "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\cms\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3895,11 +3877,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -3911,6 +3889,24 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Serilog.AspNetCore": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Serilog.Settings.Configuration": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Serilog.Sinks.Console": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "Serilog.Sinks.File": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -3922,9 +3918,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jfRHcD+xF7P/HdSDQhQsrscC2VCnGECgWzkfX8On+FSB80//A1VKZT9iWWrrw06hhY1vSrJuBbvX67/EYhDfJg==",
+  "dgSpecHash": "VzQLvgENEWLw9UyYAKcOQ9aEd/g8OpKQ/vjR/OheRzYfavR8gCKtmQiEOAHRxuZOwVSfeFgIJLSfe6eAe43o/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\cms\\cms.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
