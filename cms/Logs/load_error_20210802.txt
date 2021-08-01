@@ -1,0 +1,1223 @@
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:10 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+FullName : "C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys"
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:12 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+version : "3.1.0"
+contextType : "DataProtectionKeysContext"
+provider : "Microsoft.EntityFrameworkCore.SqlServer"
+options : "MigrationsAssembly=cms "
+EventId : { Id: 10403, Name: "Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized" }
+SourceContext : "Microsoft.EntityFrameworkCore.Infrastructure"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:13 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "103"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT 1"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:14 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "412"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:15 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+version : "3.1.0"
+contextType : "ApplicationDbContext"
+provider : "Microsoft.EntityFrameworkCore.SqlServer"
+options : "MigrationsAssembly=cms "
+EventId : { Id: 10403, Name: "Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized" }
+SourceContext : "Microsoft.EntityFrameworkCore.Infrastructure"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:15 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "91"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT 1"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:15 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "163"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:16 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "206"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:17 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+SourceContext : "Microsoft.Hosting.Lifetime"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:17 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+envName : "Development"
+SourceContext : "Microsoft.Hosting.Lifetime"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:17 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+contentRoot : "C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms"
+SourceContext : "Microsoft.Hosting.Lifetime"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:17 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000009-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|cd95c58b-438384b8c917a037."
+TraceId : "cd95c58b-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:17 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/index.html"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/index.html  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000a-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/swagger/index.html"
+SpanId : "|cd95c58c-438384b8c917a037."
+TraceId : "cd95c58c-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:17 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 192.6419
+StatusCode : 0
+ContentType : null
+HostingRequestFinishedLog : "Request finished in 192.6419ms 0 "
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000009-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|cd95c58b-438384b8c917a037."
+TraceId : "cd95c58b-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 283.6824
+StatusCode : 200
+ContentType : "text/html;charset=utf-8"
+HostingRequestFinishedLog : "Request finished in 283.6824ms 200 text/html;charset=utf-8"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000a-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/swagger/index.html"
+SpanId : "|cd95c58c-438384b8c917a037."
+TraceId : "cd95c58c-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/swagger-ui-bundle.js"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/swagger-ui-bundle.js  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000004-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui-bundle.js"
+SpanId : "|cd95c58d-438384b8c917a037."
+TraceId : "cd95c58d-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/swagger-ui.css"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/swagger-ui.css  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000126-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui.css"
+SpanId : "|cd95c58e-438384b8c917a037."
+TraceId : "cd95c58e-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/swagger-ui-standalone-preset.js"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/swagger-ui-standalone-preset.js  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000002-0001-f900-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui-standalone-preset.js"
+SpanId : "|cd95c58f-438384b8c917a037."
+TraceId : "cd95c58f-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+VirtualPath : "/swagger-ui-standalone-preset.js"
+PhysicalPath : "N/A"
+EventId : { Id: 2, Name: "FileServed" }
+SourceContext : "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware"
+RequestId : "80000002-0001-f900-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui-standalone-preset.js"
+SpanId : "|cd95c58f-438384b8c917a037."
+TraceId : "cd95c58f-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+VirtualPath : "/swagger-ui-bundle.js"
+PhysicalPath : "N/A"
+EventId : { Id: 2, Name: "FileServed" }
+SourceContext : "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware"
+RequestId : "80000004-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui-bundle.js"
+SpanId : "|cd95c58d-438384b8c917a037."
+TraceId : "cd95c58d-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+VirtualPath : "/swagger-ui.css"
+PhysicalPath : "N/A"
+EventId : { Id: 2, Name: "FileServed" }
+SourceContext : "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware"
+RequestId : "80000126-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui.css"
+SpanId : "|cd95c58e-438384b8c917a037."
+TraceId : "cd95c58e-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 336.7976
+StatusCode : 200
+ContentType : "application/javascript"
+HostingRequestFinishedLog : "Request finished in 336.7976ms 200 application/javascript"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000002-0001-f900-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui-standalone-preset.js"
+SpanId : "|cd95c58f-438384b8c917a037."
+TraceId : "cd95c58f-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 488.5488
+StatusCode : 200
+ContentType : "text/css"
+HostingRequestFinishedLog : "Request finished in 488.5488ms 200 text/css"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000126-0001-fe00-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui.css"
+SpanId : "|cd95c58e-438384b8c917a037."
+TraceId : "cd95c58e-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:18 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 503.3707
+StatusCode : 200
+ContentType : "application/javascript"
+HostingRequestFinishedLog : "Request finished in 503.3707ms 200 application/javascript"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000004-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/swagger/swagger-ui-bundle.js"
+SpanId : "|cd95c58d-438384b8c917a037."
+TraceId : "cd95c58d-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:19 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/v1/swagger.json"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/v1/swagger.json  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000006-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/swagger/v1/swagger.json"
+SpanId : "|cd95c590-438384b8c917a037."
+TraceId : "cd95c590-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:19 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 49.3767
+StatusCode : 200
+ContentType : "application/json;charset=utf-8"
+HostingRequestFinishedLog : "Request finished in 49.3767ms 200 application/json;charset=utf-8"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000006-0001-fd00-b63f-84710c7967bb"
+RequestPath : "/swagger/v1/swagger.json"
+SpanId : "|cd95c590-438384b8c917a037."
+TraceId : "cd95c590-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:19 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/favicon-32x32.png"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/favicon-32x32.png  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000b-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/swagger/favicon-32x32.png"
+SpanId : "|cd95c591-438384b8c917a037."
+TraceId : "cd95c591-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:19 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+VirtualPath : "/favicon-32x32.png"
+PhysicalPath : "N/A"
+EventId : { Id: 2, Name: "FileServed" }
+SourceContext : "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware"
+RequestId : "8000000b-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/swagger/favicon-32x32.png"
+SpanId : "|cd95c591-438384b8c917a037."
+TraceId : "cd95c591-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:21:19 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 31.7259
+StatusCode : 200
+ContentType : "image/png"
+HostingRequestFinishedLog : "Request finished in 31.7259ms 200 image/png"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000b-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/swagger/favicon-32x32.png"
+SpanId : "|cd95c591-438384b8c917a037."
+TraceId : "cd95c591-438384b8c917a037"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 65080
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:26 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+FullName : "C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys"
+SourceContext : "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:27 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+version : "3.1.0"
+contextType : "DataProtectionKeysContext"
+provider : "Microsoft.EntityFrameworkCore.SqlServer"
+options : "MigrationsAssembly=cms "
+EventId : { Id: 10403, Name: "Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized" }
+SourceContext : "Microsoft.EntityFrameworkCore.Infrastructure"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:28 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "97"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT 1"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:28 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "148"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:29 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+version : "3.1.0"
+contextType : "ApplicationDbContext"
+provider : "Microsoft.EntityFrameworkCore.SqlServer"
+options : "MigrationsAssembly=cms "
+EventId : { Id: 10403, Name: "Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized" }
+SourceContext : "Microsoft.EntityFrameworkCore.Infrastructure"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:29 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "1"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT 1"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:29 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "45"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:30 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+elapsed : "13"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+EventId : { Id: 20101, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:31 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+SourceContext : "Microsoft.Hosting.Lifetime"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:31 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+envName : "Development"
+SourceContext : "Microsoft.Hosting.Lifetime"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:31 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+contentRoot : "C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\cms"
+SourceContext : "Microsoft.Hosting.Lifetime"
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:32 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/index.html"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/index.html  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000b-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/swagger/index.html"
+SpanId : "|36920cf9-4f5b55106fd8f66e."
+TraceId : "36920cf9-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:32 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000002-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|36920cfa-4f5b55106fd8f66e."
+TraceId : "36920cfa-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:32 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 381.7745
+StatusCode : 0
+ContentType : null
+HostingRequestFinishedLog : "Request finished in 381.7745ms 0 "
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "80000002-0003-fd00-b63f-84710c7967bb"
+RequestPath : "/"
+SpanId : "|36920cfa-4f5b55106fd8f66e."
+TraceId : "36920cfa-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:32 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 463.1656
+StatusCode : 200
+ContentType : "text/html;charset=utf-8"
+HostingRequestFinishedLog : "Request finished in 463.1656ms 200 text/html;charset=utf-8"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000b-0001-fc00-b63f-84710c7967bb"
+RequestPath : "/swagger/index.html"
+SpanId : "|36920cf9-4f5b55106fd8f66e."
+TraceId : "36920cf9-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:34 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/swagger/v1/swagger.json"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/swagger/v1/swagger.json  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000c-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/swagger/v1/swagger.json"
+SpanId : "|36920cfb-4f5b55106fd8f66e."
+TraceId : "36920cfb-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:34 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 481.7445
+StatusCode : 200
+ContentType : "application/json;charset=utf-8"
+HostingRequestFinishedLog : "Request finished in 481.7445ms 200 application/json;charset=utf-8"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000c-0000-fc00-b63f-84710c7967bb"
+RequestPath : "/swagger/v1/swagger.json"
+SpanId : "|36920cfb-4f5b55106fd8f66e."
+TraceId : "36920cfb-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Protocol : "HTTP/2.0"
+Method : "GET"
+ContentType : null
+ContentLength : null
+Scheme : "https"
+Host : "localhost:44388"
+PathBase : ""
+Path : "/api/Values"
+QueryString : ""
+HostingRequestStartingLog : "Request starting HTTP/2.0 GET https://localhost:44388/api/Values  "
+EventId : { Id: 1 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+EndpointName : "cms.Controllers.ValuesController.Get (cms)"
+EventId : { Name: "ExecutingEndpoint" }
+SourceContext : "Microsoft.AspNetCore.Routing.EndpointMiddleware"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+RouteData : "{action = \"Get\", controller = \"Values\"}"
+MethodInfo : "System.Collections.Generic.IEnumerable`1[System.String] Get()"
+Controller : "cms.Controllers.ValuesController"
+AssemblyName : "cms"
+EventId : { Id: 3, Name: "ControllerActionExecuting" }
+SourceContext : "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker"
+ActionId : "88ec1a91-f850-4f56-885e-996d08bdcf1a"
+ActionName : "cms.Controllers.ValuesController.Get (cms)"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+Type : "System.String[]"
+EventId : { Id: 1, Name: "ObjectResultExecuting" }
+SourceContext : "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor"
+ActionId : "88ec1a91-f850-4f56-885e-996d08bdcf1a"
+ActionName : "cms.Controllers.ValuesController.Get (cms)"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ActionName : "cms.Controllers.ValuesController.Get (cms)"
+ElapsedMilliseconds : 28.6462
+EventId : { Id: 2, Name: "ActionExecuted" }
+SourceContext : "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker"
+ActionId : "88ec1a91-f850-4f56-885e-996d08bdcf1a"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+EndpointName : "cms.Controllers.ValuesController.Get (cms)"
+EventId : { Id: 1, Name: "ExecutedEndpoint" }
+SourceContext : "Microsoft.AspNetCore.Routing.EndpointMiddleware"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+Timestamp - 02/08/2021 00:22:46 +01:00 | Level - Information |
+-----------------------------------------------------------------------------------------------
+ElapsedMilliseconds : 103.6839
+StatusCode : 200
+ContentType : "application/json; charset=utf-8"
+HostingRequestFinishedLog : "Request finished in 103.6839ms 200 application/json; charset=utf-8"
+EventId : { Id: 2 }
+SourceContext : "Microsoft.AspNetCore.Hosting.Diagnostics"
+RequestId : "8000000d-0002-fb00-b63f-84710c7967bb"
+RequestPath : "/api/Values"
+SpanId : "|36920cfc-4f5b55106fd8f66e."
+TraceId : "36920cfc-4f5b55106fd8f66e"
+ParentId : ""
+Application : "CMS"
+MachineName : "DESKTOP-KDLEN81"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.18363.0"
+Version : "3.1.16"
+UserName : "ASUS"
+ProcessId : 61764
+ProcessName : "iisexpress"
+-------------------------------------------------------------------------------------------------

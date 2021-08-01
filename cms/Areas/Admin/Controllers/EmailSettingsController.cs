@@ -8,10 +8,10 @@ namespace cms.Areas.Admin.Controllers
 {
     public class EmailSettingsController : Controller
     {
-        [Area("Admin")]
-        public IActionResult Index()
-        {
-            return View();
-        }
+        //[Area("Admin")]
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
     }
 }
