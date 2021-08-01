@@ -10,3 +10,10 @@ C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.runtimeconfig.json
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.runtimeconfig.dev.json
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.genruntimeconfig.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\FunctionalService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\LoggingService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\ModelService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\FunctionalService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\LoggingService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\ModelService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CopyComplete
