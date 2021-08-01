@@ -1,0 +1,9 @@
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\bin\Debug\netcoreapp3.1\ModelService.deps.json
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\bin\Debug\netcoreapp3.1\ModelService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\bin\Debug\netcoreapp3.1\ModelService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\obj\Debug\netcoreapp3.1\ModelService.csproj.AssemblyReference.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfoInputs.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\obj\Debug\netcoreapp3.1\ModelService.AssemblyInfo.cs
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\obj\Debug\netcoreapp3.1\ModelService.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\obj\Debug\netcoreapp3.1\ModelService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\ModelService\obj\Debug\netcoreapp3.1\ModelService.pdb

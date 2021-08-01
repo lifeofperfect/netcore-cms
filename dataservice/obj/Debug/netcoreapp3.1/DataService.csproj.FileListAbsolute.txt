@@ -1,0 +1,12 @@
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.deps.json
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.AssemblyReference.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.AssemblyInfoInputs.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.AssemblyInfo.cs
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.runtimeconfig.json
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\bin\Debug\netcoreapp3.1\DataService.runtimeconfig.dev.json
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\DataService\obj\Debug\netcoreapp3.1\DataService.genruntimeconfig.cache
