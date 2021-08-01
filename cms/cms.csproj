@@ -1,21 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+	<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataService\DataService.csproj" />
-    <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+	<ProjectReference Include="..\DataService\DataService.csproj" />
+	<ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Folder Include="Areas\Admin\Views\Account\" />
+	<Folder Include="Areas\Admin\Views\EmailSettings\" />
+	<Folder Include="Areas\Admin\Views\UserRole\" />
+	<Folder Include="Areas\Admin\Views\User\" />
+	<Folder Include="Areas\Admin\Views\SiteSettings\" />
+	<Folder Include="Areas\Admin\Views\Profile\" />
   </ItemGroup>
 
 </Project>

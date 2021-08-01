@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cms", "cms\cms.csproj", "{E578219C-A807-479C-98D3-586840F60814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingService", "LoggingService\LoggingService.csproj", "{5014ABC1-EB74-4D2D-85F6-2FD6FE852B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingService", "LoggingService\LoggingService.csproj", "{5014ABC1-EB74-4D2D-85F6-2FD6FE852B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataService", "DataService\DataService.csproj", "{199A2AFA-3963-40CF-925A-206C0353100F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataService", "DataService\DataService.csproj", "{199A2AFA-3963-40CF-925A-206C0353100F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelService", "ModelService\ModelService.csproj", "{6A96DD4A-2155-48EC-BAD7-D19CEE5598E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelService", "ModelService\ModelService.csproj", "{6A96DD4A-2155-48EC-BAD7-D19CEE5598E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalService", "FunctionalService\FunctionalService.csproj", "{C12984C1-37FC-49D1-BE76-9CA11FAE3680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalService", "FunctionalService\FunctionalService.csproj", "{C12984C1-37FC-49D1-BE76-9CA11FAE3680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

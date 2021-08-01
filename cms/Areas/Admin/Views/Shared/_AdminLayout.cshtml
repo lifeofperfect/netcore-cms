@@ -1,0 +1,23 @@
+﻿<!Doctype html>
+<html lang="en">
+   <head>
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width" />
+       <title>CMS Application</title>
+       <meta name="description" content="CMS Application built with angular 10 and asp.net core 3" />
+       <meta name="author" content="technology" />
+       <link href="~/favicon.ico" rel="icon" />
+       @RenderSection("Styles", required: false)
+   </head>
+<body>
+    <div class="wrapper">
+        <div id="content">
+            @RenderBody()
+        </div>
+
+        @*@await Html.PartialAsync("_FooterLayout")*@ 
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
