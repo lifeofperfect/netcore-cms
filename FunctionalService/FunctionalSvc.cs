@@ -60,7 +60,7 @@ namespace FunctionalService
             catch (Exception ex)
             {
 
-                Log.Error("An Error occured while seeding the database {Error} {Stacktree} {InnerException} {Source}", ex.Message, ex.StackTrace, ex.Source); ;
+                Log.Error("An Error occured while seeding the database {Error} {Stacktree} {InnerException} {Source}", ex.Message, ex.StackTrace, ex.Source); 
             }
         }
 

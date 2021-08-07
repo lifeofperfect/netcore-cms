@@ -41,7 +41,7 @@ namespace cms
             {
                 opt.UseSqlServer(Configuration.GetConnectionString("DataProtectionKey"), x => x.MigrationsAssembly("cms"));
             });
-
+             
             //functional service
 
             services.AddTransient<IFunctionalSvc, FunctionalSvc>();

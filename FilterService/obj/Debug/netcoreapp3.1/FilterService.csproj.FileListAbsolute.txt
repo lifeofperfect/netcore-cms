@@ -1,0 +1,4 @@
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.csproj.AssemblyReference.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.AssemblyInfoInputs.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.AssemblyInfo.cs
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.csproj.CoreCompileInputs.cache
