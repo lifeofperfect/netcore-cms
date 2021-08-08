@@ -4,6 +4,96 @@
     "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FilterService\\FilterService.csproj": {}
   },
   "projects": {
+    "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\DataService\\DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\DataService\\DataService.csproj",
+        "projectName": "DataService",
+        "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\DataService\\DataService.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\DataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/stanbicibtcdev/_packaging/com.stanbicibtc.dotnet.feed%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FunctionalService\\FunctionalService.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FunctionalService\\FunctionalService.csproj"
+              },
+              "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FilterService\\FilterService.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +102,92 @@
         "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FilterService\\FilterService.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FilterService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/stanbicibtcdev/_packaging/com.stanbicibtc.dotnet.feed%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\DataService\\DataService.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\DataService\\DataService.csproj"
+              },
+              "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\LoggingService\\LoggingService.csproj"
+              },
+              "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\ModelService\\ModelService.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\ModelService\\ModelService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FunctionalService\\FunctionalService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FunctionalService\\FunctionalService.csproj",
+        "projectName": "FunctionalService",
+        "projectPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FunctionalService\\FunctionalService.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Dropbox\\My PC (DESKTOP-KDLEN81)\\Desktop\\Csharp\\cms\\cms\\FunctionalService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -51,21 +227,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication": {
+            "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.AspNetCore.Mvc.Abstractions": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.12.0, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.12.0, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

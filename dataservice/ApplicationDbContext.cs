@@ -27,5 +27,6 @@ namespace DataService
 
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<AddressModel> Addresses { get; set; }
+        public DbSet<TokenModel> Tokens { get; set; }
     }
 }

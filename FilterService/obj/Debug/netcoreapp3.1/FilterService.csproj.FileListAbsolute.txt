@@ -2,3 +2,17 @@ C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterServi
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.AssemblyInfoInputs.cache
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.AssemblyInfo.cs
 C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\FilterService.deps.json
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\FilterService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\FilterService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\DataService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\FunctionalService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\LoggingService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\ModelService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\DataService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\LoggingService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\ModelService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\bin\Debug\netcoreapp3.1\FunctionalService.pdb
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.csproj.CopyComplete
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.dll
+C:\Users\ASUS\Dropbox\My PC (DESKTOP-KDLEN81)\Desktop\Csharp\cms\cms\FilterService\obj\Debug\netcoreapp3.1\FilterService.pdb
